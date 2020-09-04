@@ -25,7 +25,7 @@ public class PopularKidsSongs implements JMC{
 	
 	public PopularKidsSongs(SONG songChoice) {
 		song = new Score("Row Your Boat", 120.0);
-		instrument = new Part(FANTASIA,0);// you can change these instruments! Check out jm.constants.ProgramChanges
+		instrument = new Part(TUBA,0);// you can change these instruments! Check out jm.constants.ProgramChanges
 		phrase1 = new Phrase(0.0);
 		switch(songChoice) {
 			case ROW_YOUR_BOAT:
@@ -58,25 +58,25 @@ public class PopularKidsSongs implements JMC{
 				
 				break;
 			case JINGLE_BELLS:
-				noteArray = new int[] { E4, E4, E4, 
-										 E4, E4, E4,
-										 E4, G4, C4, D4,
-										 E4,
+				noteArray = new int[] { E2, E2, E2, 
+										 E2, E2, E2,
+										 E2, G2, C2, D2,
+										 E2,
 										 
-										 F4, F4, F4, F4,
-										 F4, E4, E4, E4,
-										 E4, D4, D4, E4,
-										 D4, G4,
+										 F2, F2, F2, F2,
+										 F2, E2, E2, E2,
+										 E2, D2, D2, E2,
+										 D2, G2,
 										 
-										 E4, E4, E4, 
-										 E4, E4, E4,
-										 E4, G4, C4, D4,
-										 E4,
+										 E2, E2, E2, 
+										 E2, E2, E2,
+										 E2, G2, C2, D2,
+										 E2,
 										 
-										 F4, F4, F4, F4,
-										 F4, E4, E4, E4,
-										 G4, G4, F4, D4,
-										 C4
+										 F2, F2, F2, F2,
+										 F2, E2, E2, E2,
+										 G2, G2, F2, D2,
+										 C2
 										 
 				};
 				
